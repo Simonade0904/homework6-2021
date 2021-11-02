@@ -131,4 +131,12 @@ header{
     .gallery{
         display: none;
     }
+
+    .card li:nth-child(odd)::before{
+        content: "\1F44D";
+    }
+
+    .card li:nth-child(even)::after{
+        content: "\1F44D";
+    }
 }
